@@ -3,7 +3,7 @@
 # ----------------------------------------
 
 import os
-os.environ["HF_HOME"] = "/scratch/cs26d002/hf_cache"
+os.environ["HF_HOME"] = "/scratch/<username>/hf_cache"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
 os.environ["HF_DATASETS_OFFLINE"] = "1"
 
@@ -21,7 +21,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # MUST be set before any HF imports/calls
 # ----------------------------------------
 
-USERNAME = "cs26d002"  # your DGX username
+USERNAME = "_________"  # your DGX username
 
 # os.environ["HF_HOME"] = f"/scratch/{USERNAME}/hf_cache"
 
@@ -351,3 +351,6 @@ for layer in LAYERS:
 
 print("All done.")
 
+# 01_Phi3_Data_and_Activation_Generation.ipynb has the same logic as this script.
+# The only difference is the looping. This script can fetch activations of multiple layers by the end of it's run.
+# I have used LLMs quite a lot for this script because I was not familiar with DGX. So needed to adjust environment variables and hence used AI a lot.
