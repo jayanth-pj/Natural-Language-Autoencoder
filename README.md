@@ -112,7 +112,7 @@ These simplifications were intentionally chosen to make experimentation feasible
 
 ### Layer-wise Reconstruction Quality
 
-*Insert layer-wise FVE comparison figure here.*
+![Layer-wise Reconstruction Quality](assets/layerwise_fve.png)
 
 The figure below compares reconstruction quality across transformer depth for both datasets.
 
