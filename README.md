@@ -233,6 +233,10 @@ assets/
 
 ## Reproducing the Experiments
 
+### Reproducibility
+
+Detailed reproduction instructions are provided in [REPLICATION.md](REPLICATION.md).
+
 The full pipeline is:
 
 ```text
@@ -246,4 +250,5 @@ The full pipeline is:
 All code required to reproduce the reported results is included in this repository.
 
 The notebooks are designed to be executed sequentially, starting from data generation and ending with result analysis.
+
 
