@@ -250,5 +250,3 @@ The full pipeline is:
 All code required to reproduce the reported results is included in this repository.
 
 The notebooks are designed to be executed sequentially, starting from data generation and ending with result analysis.
-
-
