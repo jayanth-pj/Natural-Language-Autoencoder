@@ -123,10 +123,10 @@ The figure below compares reconstruction quality across transformer depth for bo
 | 4     |     0.274 |
 | 8     |     0.559 |
 | 12    |     0.592 |
-| 16    |     0.531 |
+| 16    |     0.530 |
 | 20    | **0.597** |
-| 24    |     0.573 |
-| 28    |     0.517 |
+| 24    |     0.572 |
+| 28    |     0.516 |
 | 31    |     0.417 |
 
 ### Khan Academy Results
@@ -135,12 +135,12 @@ The figure below compares reconstruction quality across transformer depth for bo
 | ----- | --------: |
 | 4     |     0.440 |
 | 8     | **0.718** |
-| 12    |     0.712 |
+| 12    |     0.711 |
 | 16    |     0.702 |
 | 20    |     0.648 |
-| 24    |     0.616 |
-| 28    |     0.581 |
-| 31    |     0.518 |
+| 24    |     0.615 |
+| 28    |     0.580 |
+| 31    |     0.517 |
 
 ---
 
