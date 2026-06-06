@@ -1,0 +1,9 @@
+{
+  "mean_fve": 0.4404,
+  "mean_cosine_similarity": 0.9931,
+  "active_latent_dimensions": 127,
+  "latent_mean": -0.0059,
+  "latent_std": 0.167,
+  "latent_max": 1.1127,
+  "latent_min": -1.1535
+}
